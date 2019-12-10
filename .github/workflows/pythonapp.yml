@@ -28,8 +28,5 @@ jobs:
       run: |
         pip install pytest
         pytest
-    - name: Gather test coverage with coverage, integrate development environment with |
-        autopep8, pylint
-      run: |
-        pip install coverage, autopep8, pylint
+
         
